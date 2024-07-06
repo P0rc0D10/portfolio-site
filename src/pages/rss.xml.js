@@ -7,8 +7,8 @@ const parser = new MarkdownIt();
 export async function GET(context) {
 	const work = await getCollection('work');
 	return rss({
-		title: 'Diego Temkin',
-		description: 'The personal site of Diego Temkin',
+		title: 'dis@paisy.uno',
+		description: 'The personal site of DisPaisy',
 		site: context.site,
 		xmlns: {
 			media: 'http://search.yahoo.com/mrss/',
