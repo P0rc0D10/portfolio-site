@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://dis.paisy.uno',
+	site: 'https://dis.paisy.lol',
 	integrations: [sitemap()],
 	prefetch: true,
 	experimental: {
